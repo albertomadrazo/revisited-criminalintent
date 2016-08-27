@@ -7,13 +7,9 @@ import java.util.List;
 import java.util.UUID;
 
 public class CrimeLab {
-    private static CrimeLab sCrimeLab = new CrimeLab();
+    private static CrimeLab sCrimeLab;
 
     private List<Crime> mCrimes = new ArrayList<>();
-
-    public CrimeLab() {
-
-    }
 
     public static CrimeLab get(Context context) {
         if(sCrimeLab == null){
