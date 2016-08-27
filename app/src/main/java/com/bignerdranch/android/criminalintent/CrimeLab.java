@@ -9,7 +9,7 @@ import java.util.UUID;
 public class CrimeLab {
     private static CrimeLab sCrimeLab = new CrimeLab();
 
-    private List<Crime> mCrimes;
+    private List<Crime> mCrimes = new ArrayList<>();
 
     public CrimeLab() {
 
